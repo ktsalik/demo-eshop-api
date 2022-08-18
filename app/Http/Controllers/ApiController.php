@@ -40,4 +40,14 @@ class ApiController extends Controller
         'page_count' => $page_count,
       ]);
     }
+
+    public function get_product($id, $name) {
+      $product = DB::table('products')
+        ->select('id', 'title', 'price', 'weight', 'sku', 'mpn', 'manufacturer', 'description', 'image')
+        ->join('product_images', 'products.id', '=', 'product_images.product_id')
+        ->where('products.id', '=', $id)
+        ->get();
+      
+      return response()->json($product);
+    }
 }

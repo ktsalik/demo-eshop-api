@@ -3,7 +3,8 @@ $(function() {
     const endpointEl = $(e.target).closest('.endpoint');
     let url = `api${endpointEl.find('.url').text()}`;
     url = url.replace(':categoryId', 1);
-    url = url.replace(':productId', 1);
+    url = url.replace(':productId', 14249);
+    url = url.replace(':productName', 'Awesome Product');
     const method = endpointEl.find('.request-method').text();
 
     $.ajax({

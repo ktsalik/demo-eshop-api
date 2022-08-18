@@ -20,6 +20,7 @@
         <span class="request-method" class="request-method">GET</span>
         <span class="url">/</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L11">View Code</a>
       </div>
       <div class="output">
 
@@ -31,6 +32,7 @@
         <span class="request-method">GET</span>
         <span class="url">/products/:categoryId</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L18">View Code</a>
       </div>
       <div class="output">
 
@@ -40,7 +42,7 @@
     <div class="endpoint">
       <div class="title">
         <span class="request-method">GET</span>
-        <span class="url">/product/:productId</span>
+        <span class="url">/products/:productId/:productName</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
       </div>
       <div class="output">
