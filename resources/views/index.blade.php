@@ -68,6 +68,11 @@
         <span class="request-method">POST</span>
         <span class="url">/login</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#71">View Code</a>
+        <form>
+          <input type="email" name="email" value="john@test.gr" />
+          <input type="password" name="password" value="1234" />
+        </form>
       </div>
       <div class="output">
 
@@ -79,6 +84,24 @@
         <span class="request-method">POST</span>
         <span class="url">/register</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#99">View Code</a>
+        <form>
+          <input type="email" name="email" value="john@test.gr" />
+          <input type="password" name="password" value="1234" />
+          <input type="password" name="password-check" value="1234" />
+        </form>
+      </div>
+      <div class="output">
+
+      </div>
+    </div>
+
+    <div class="endpoint">
+      <div class="title">
+        <span class="request-method">POST</span>
+        <span class="url">/logout</span>
+        <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#130">View Code</a>
       </div>
       <div class="output">
 

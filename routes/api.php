@@ -23,3 +23,6 @@ Route::get('/', [ApiController::class, 'index']);
 Route::get('/products/{categoryId}', [ApiController::class, 'get_products']);
 Route::get('/products/{productId}/{productName}', [ApiController::class, 'get_product']);
 Route::get('/categories', [ApiController::class, 'get_categories']);
+Route::post('/login', [ApiController::class, 'login']);
+Route::post('/register', [ApiController::class, 'register']);
+Route::post('/logout', [ApiController::class, 'logout']);

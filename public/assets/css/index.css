@@ -66,3 +66,7 @@ body {
   text-decoration: none;
   color: #111111;
 }
+
+.endpoint-list .endpoint form {
+  display: none;
+}
