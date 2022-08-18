@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Google Sans';
+  src: url(../fonts/Google_Sans.woff2);
+}
+
+@font-face {
+  font-family: 'Google Sans Greek';
+  src: url(../fonts/Google_Sans_Greek.woff2);
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Google Sans Greek', 'Google Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.endpoint-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.endpoint-list .endpoint {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.endpoint-list .endpoint:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.endpoint-list .endpoint .title {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.endpoint-list .endpoint .title .request-method {
+  width: 40px;
+  text-align: right;
+}
+
+.endpoint-list .endpoint .title .url {
+  width: 500px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #90EE90;
+  font-size: 18px;
+  color: #111111;
+}
+
+.endpoint-list .endpoint .title > button {
+  outline: none;
+  border: none;
+  width: 100px;
+  background-color: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
