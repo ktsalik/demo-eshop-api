@@ -45,8 +45,7 @@ class ApiController extends Controller
       $product = DB::table('products')
         ->select('id', 'title', 'price', 'weight', 'sku', 'mpn', 'manufacturer', 'description', 'image')
         ->join('product_images', 'products.id', '=', 'product_images.product_id')
-        ->where('products.id', '=', $id)
-        ->get();
+        ->find($id);
       
       return response()->json($product);
     }
