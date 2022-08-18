@@ -49,4 +49,10 @@ class ApiController extends Controller
       
       return response()->json($product);
     }
+
+    public function get_categories() {
+      $categories = DB::table('categories')->get();
+
+      return response()->json($categories);
+    }
 }
