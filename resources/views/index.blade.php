@@ -68,7 +68,7 @@
         <span class="request-method">POST</span>
         <span class="url">/login</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
-        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#71">View Code</a>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L71">View Code</a>
         <form>
           <input type="email" name="email" value="john@test.gr" />
           <input type="password" name="password" value="1234" />
@@ -84,7 +84,7 @@
         <span class="request-method">POST</span>
         <span class="url">/register</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
-        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#99">View Code</a>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L99">View Code</a>
         <form>
           <input type="email" name="email" value="john@test.gr" />
           <input type="password" name="password" value="1234" />
@@ -101,7 +101,7 @@
         <span class="request-method">POST</span>
         <span class="url">/logout</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
-        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#130">View Code</a>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L130">View Code</a>
       </div>
       <div class="output">
 
