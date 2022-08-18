@@ -56,6 +56,7 @@
         <span class="request-method">GET</span>
         <span class="url">/categories</span>
         <button><i class="fa-solid fa-play fa-lg"></i></button>
+        <a href="https://github.com/ktsalik/demo-eshop-api/blob/master/app/Http/Controllers/ApiController.php#L53">View Code</a>
       </div>
       <div class="output">
 
